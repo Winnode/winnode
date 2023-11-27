@@ -1,14 +1,18 @@
-### Hi there 👋
-
+<h1 align="center">Hello, I'm Winnode</h1>
+<h3 align="center">Python/JS Programmer | Node Blockchain | Web Developer</h3>
 <br>
 
 <p align="right">
   <img align="right" width="400" src="https://i.pinimg.com/originals/2d/90/92/2d9092a49b889204284f0dea4ce7ec8b.gif">
 </p>
 
-- 👤 I’m **37** years old
+- 🌱 Currently learning **JS, CSS, Fast API, Bootstrap, Docker**
 
-- 🔧 **Bot Dev** & **Web3 Dev**
+- 🚀 All of my projects are available at **Linked In**
+
+- 💁‍♂️ If you want to collaborate, please **contact me**
+
+- 📫 You can reach me by **mail, or socials below**
 
 - 💎 **5+ years** of coding experience
 

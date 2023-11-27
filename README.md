@@ -13,7 +13,7 @@
 - 💎 **5+ years** of coding experience
 
 - 📫 How to reach me
-  <a href="https://t.me/SmartMainnet">
+  <a href="https://t.me/winnodex">
     <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat&logo=Telegram&logoColor=white">
   </a>
 

@@ -6,7 +6,7 @@
   <img align="right" width="400" src="https://i.pinimg.com/originals/2d/90/92/2d9092a49b889204284f0dea4ce7ec8b.gif">
 </p>
 
-- 👤 I’m **20** years old
+- 👤 I’m **37** years old
 
 - 🔧 **Bot Dev** & **Web3 Dev**
 
@@ -34,13 +34,13 @@
   <summary><h2>📱 My Telegram Bots</h2></summary>
 
   <p align="center">
-    <a href="https://t.me/SmartSafeCryptoBot">
+    <a href="https://t.me/winnodex">
       <img src="https://img.shields.io/badge/-Safe_Crypto_Bot-31A8FF?style=for-the-badge&logo=Telegram&logoColor=white">
     </a>
-    <a href="https://t.me/SmartWalletCheckerBot">
+    <a href="https://t.me/winnodex">
       <img src="https://img.shields.io/badge/-Crypto_Wallet_Checker_Bot-F7931A?style=for-the-badge&logo=Telegram&logoColor=white">
     </a>
-    <a href="https://t.me/SmartWhaleTrackBot">
+    <a href="https://t.me/winnodex">
       <img src="https://img.shields.io/badge/-Crypto_Whale_Track_Bot-A100FF?style=for-the-badge&logo=Telegram&logoColor=white">
     </a>
   </p>

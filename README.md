@@ -30,21 +30,6 @@
 
 ---
 
-<details open align="center">
-  <summary><h2>📱 My Telegram Bots</h2></summary>
-
-  <p align="center">
-    <a href="https://t.me/winnodex">
-      <img src="https://img.shields.io/badge/-Safe_Crypto_Bot-31A8FF?style=for-the-badge&logo=Telegram&logoColor=white">
-    </a>
-    <a href="https://t.me/winnodex">
-      <img src="https://img.shields.io/badge/-Crypto_Wallet_Checker_Bot-F7931A?style=for-the-badge&logo=Telegram&logoColor=white">
-    </a>
-    <a href="https://t.me/winnodex">
-      <img src="https://img.shields.io/badge/-Crypto_Whale_Track_Bot-A100FF?style=for-the-badge&logo=Telegram&logoColor=white">
-    </a>
-  </p>
-</details>
 
 <details open align="center">
   <summary><h2>🛠️ Languages and Tools</h2></summary>

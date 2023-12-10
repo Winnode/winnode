@@ -1,9 +1,9 @@
 <h1 align="center">Hello, I'm Winnode</h1>
 <h3 align="center">Python/JS Programmer | Node Blockchain | Web Developer</h3>
 <br>
-
+https://pixabay.com/id/gifs/daun-daun-daun-jatuh-maple-8724/
 <p align="right">
-  <img align="right" width="400" src="https://i.pinimg.com/originals/2d/90/92/2d9092a49b889204284f0dea4ce7ec8b.gif">
+  <img align="right" width="400" src="https://cdn.pixabay.com/animation/2023/03/05/21/13/21-13-51-872_512.gif">
 </p>
 
 - 🌱 Currently learning **JS, CSS, Fast API, Bootstrap, Docker**

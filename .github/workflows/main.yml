@@ -48,11 +48,11 @@ jobs:
         run: git merge origin/main --no-edit || echo "Conflict"
 
       - name: Resolve merge conflicts
-        if: always()
+        if: ${{ success() }}
         run: |
           git checkout --ours TIMESTAMP.txt
           git add TIMESTAMP.txt
-          git commit -m "Resolve merge conflict by keeping local changes"
+          git commit -m "Resolve merge conflict by keeping local changes" || echo "No conflict to resolve"
 
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0

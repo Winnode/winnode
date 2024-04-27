@@ -36,10 +36,17 @@ jobs:
           git config user.email "maladarsih@gmail.com"
           git config user.name "Winnode"
 
-      - name: Commit changes
+      - name: Prepare Commit
         run: |
-          git add TIMESTAMP.txt
-          git commit -m "Update timestamp - $current_time"
+          commit_messages=("Update: ⏰" "Refresh: 🔄" "Renew: 🌟" "Revise: 📝" "Amend: 🛠" "Adjust: 🔧" "Change: 📈" "Modify: 🖊" "Transform: 🌀" "Revamp: 🌈")
+          random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
+
+          if [[ $(git status --porcelain) ]]; then
+            git add TIMESTAMP.txt
+            git commit -m "$random_msg - $current_time"
+          else
+            echo "No changes to commit."
+          fi
 
       - name: Fetch latest changes from origin
         run: git fetch origin main

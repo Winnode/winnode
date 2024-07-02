@@ -17,9 +17,9 @@
 - 💎 **5+ years** of coding experience
 
 - 📫 How to reach me
-  <a href="https://t.me/winnodex">
+  <a href="https://t.me/winnodexx">
     <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat&logo=Telegram&logoColor=white">
-- 📫 Discord : rehan265derpdex
+- 📫 Discord : Winnode
   </a>
 
 <br>

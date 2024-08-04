@@ -1,4 +1,4 @@
-# Winnode Doc Node
+# Winnode
 
 <p align="center">
   <img src="https://github.com/Winnode/winnode/blob/main/win.png" alt="Winnode">

@@ -1,6 +1,9 @@
 # Winnode Doc Node
 
-<figure><img src=".gitbook/assets/Logo win (1).png" alt=""><figcaption></figcaption></figure>
+<p align="center">
+  <img src="https://github.com/Winnode/winnode/blob/main/win.png" alt="Winnode">
+</p>
+
 
 ## **Welcome!**
 

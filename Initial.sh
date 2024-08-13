@@ -8,7 +8,7 @@ COLORS=(
 )
 
 function printLogo {
-  bash <(curl -s https://raw.githubusercontent.com/Winnode/winnode/main/Initial.sh)
+  bash <(curl -s https://raw.githubusercontent.com/Winnode/winnode/main/Logo.sh)
 }
 
 function printLine {

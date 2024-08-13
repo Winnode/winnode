@@ -1,26 +1,39 @@
+#!/bin/bash
+
+COLORS=(
+  GREEN="\e[1m\e[1;32m"
+  RED="\e[1m\e[1;31m"
+  BLUE='\033[0;34m'
+  NC="\e[0m"
+)
+
 function printLogo {
-  curl -s https://raw.githubusercontent.com/Winnode/winnode/main/Logo.sh | bash
+  bash <(curl -s https://raw.githubusercontent.com/Winnode/winnode/main/Initial.sh)
 }
 
 function printLine {
-  printf '%s\n' '────────────────────────────────────────────────────────────────────'
+  echo -e "${BLUE}════════════════════════════════════════════════════════════════════════════════${NC}"
 }
 
 function printGreen {
-  printf "%b%s%b\n" "${COLORS[0]}" "$1" "${COLORS[3]}"
+  echo -e "${GREEN}${1}${NC}"
 }
 
 function printRed {
-  printf "%b%s%b\n" "${COLORS[1]}" "$1" "${COLORS[3]}"
+  echo -e "${RED}${1}${NC}"
 }
 
 function printBlue {
-  printf "%b%s%b\n" "${COLORS[2]}" "$1" "${COLORS[3]}"
+  echo -e "${BLUE}${1}${NC}"
 }
 
 function addToPath {
-  local dir="$1"
-  local profile="$HOME/.bash_profile"
-  grep -qxF "export PATH=\$PATH:${dir}" "$profile" || echo "export PATH=\$PATH:${dir}" >> "$profile"
-  source "$profile"
+  local dir=$1
+  source $HOME/.bash_profile
+  if ! grep -q "${dir}" $HOME/.bash_profile; then
+    echo "export PATH=\$PATH:${dir}" >> $HOME/.bash_profile
+    printGreen "Added ${dir} to PATH."
+  else
+    printBlue "${dir} is already in PATH."
+  fi
 }

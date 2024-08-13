@@ -1,7 +1,7 @@
-GREEN="\e[1m\e[1;32m" # green color
-RED="\e[1m\e[1;31m" # red color
-BLUE='\033[0;34m'   # blue color
-NC="\e[0m"          # no color
+GREEN="\e[1m\e[1;32m" 
+RED="\e[1m\e[1;31m"
+BLUE='\033[0;34m'  
+NC="\e[0m"  
 
 function printLogo {
   bash <(curl -s https://raw.githubusercontent.com/Winnode/winnode/main/Logo.sh)

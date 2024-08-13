@@ -37,7 +37,7 @@ function addToPath {
 
 printLogo
 printLine
-printGreen "This is green text."
-printRed "This is red text."
-printBlue "This is blue text."
-addToPath "/new/path"
+printGreen 
+printRed 
+printBlue 
+addToPath

@@ -1,11 +1,7 @@
-#!/bin/bash
-
-COLORS=(
-  GREEN="\e[1m\e[1;32m"
-  RED="\e[1m\e[1;31m"
-  BLUE='\033[0;34m'
-  NC="\e[0m"
-)
+GREEN="\e[1m\e[1;32m" # green color
+RED="\e[1m\e[1;31m" # red color
+BLUE='\033[0;34m'   # blue color
+NC="\e[0m"          # no color
 
 function printLogo {
   bash <(curl -s https://raw.githubusercontent.com/Winnode/winnode/main/Logo.sh)
@@ -28,12 +24,9 @@ function printBlue {
 }
 
 function addToPath {
-  local dir=$1
   source $HOME/.bash_profile
-  if ! grep -q "${dir}" $HOME/.bash_profile; then
-    echo "export PATH=\$PATH:${dir}" >> $HOME/.bash_profile
-    printGreen "Added ${dir} to PATH."
-  else
-    printBlue "${dir} is already in PATH."
+  PATH_EXIST=$(grep "${1}" $HOME/.bash_profile)
+  if [ -z "$PATH_EXIST" ]; then
+    echo "export PATH=\$PATH:${1}" >> $HOME/.bash_profile
   fi
 }

@@ -1,0 +1,20 @@
+{
+  "pub_key": "BLS_VER_KEY~Vadcdhqm-XVsj_4OajCJdUE417MQVfrsZWfN9U5RIypzud1WDShSrGDjjAGy3B-npWALWD8qqRqzjWoYpZyiHanBVrTPAeFmWrD8H0yRFME3yTqSo10L5GvIiNGPrwYvdQMKVONR5kBl9QxylwBXfS4eo7sxAEG7sp4ImiHLSgoq",
+  "name": "Winnode",
+  "description": "Validator RPC Service Provider, Runs a secure and reliable testnet validator node, ensuring high uptime, transparency, decentralization, and optimal performance",
+  "company_name": "Winnode",
+  "company_website": "https://winnode.xyz",
+  "client_version": "1.0.0",
+  "icon": {
+    "14x14": {
+      "@1x": "https://raw.githubusercontent.com/Winnode/winnode/main/win.jpg",
+      "@2x": "https://raw.githubusercontent.com/Winnode/winnode/main/win.jpg",
+      "@3x": "https://raw.githubusercontent.com/Winnode/winnode/main/win.jpg"
+    },
+    "24x24": {
+      "@1x": "https://raw.githubusercontent.com/Winnode/winnode/main/win.jpg",
+      "@2x": "https://raw.githubusercontent.com/Winnode/winnode/main/win.jpg",
+      "@3x": "https://raw.githubusercontent.com/Winnode/winnode/main/win.jpg"
+    }
+  }
+}
